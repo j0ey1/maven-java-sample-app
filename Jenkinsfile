@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-     image 'kubesphere/java-11-centos7'
+     image 'wroquem/open-jdk:1.8'
     }
         
     }
